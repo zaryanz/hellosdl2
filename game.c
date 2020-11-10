@@ -22,6 +22,14 @@ void input()
     }
 }
 
+void update()
+{
+}
+
+void draw()
+{
+}
+
 int main() 
 {
     SDL_Window *window;
@@ -38,6 +46,8 @@ int main()
     }
     while(!game.loopDone) {
         input();
+        update();
+        draw();
     }
     return 0;
 }
